@@ -1,0 +1,594 @@
+ 0- DesiredCapability : Create instance of Desired Capabilities
+ 1- DesiredCapability : Set browser name as *browserName*
+ 2- Browser window : Open
+ 3- Wait for *seconds* seconds
+ 4- Browser window : Close active browser window
+ 5- Browser window : Verify if cookie *name* is added
+ 6- Browser window : Verify if cookie *name* is deleted
+ 7- Browser window : Verify if *url* navigates to *title* page
+ 8- Browser window : Verify if navigated to *url*
+ 9- Verify if height of *element* is *expectedHeight* pixels
+ 10- Verify if *link* is broken
+ 11- Verify if number of elements by *tagName* are *expectedCount*
+ 12- Verify if number of elements by *xpath* are *expectedCount*
+ 13- Verify if tagname of *element* is *expectedTagName*
+ 14- Verify if value of *element* contains *expectedValue*
+ 15- Verify if value of *element* is cleared
+ 16- Verify if value of *element* is *expectedValue*
+
+ 17- Verify if width of *element* is *expectedWidth* pixels
+ 18- Verify if X coordinate of *element* is *expectedLocation*
+ 19- Verify if Y coordinate of *element* is *expectedLocation*
+ 20- Press *key*
+ 21- Keyboard : Press ArrowDown key and enter key at same time
+ 22- Keyboard : Press ArrowDown
+ 23- Keyboard : Press ArrowLeft key
+ 24- Keyboard : Press ArrowRight key
+ 25- Keyboard : Press ArrowUp key
+ 26- Keyboard : Press ArrowUp key and Enter key at same time
+ 27- Keyboard : Press Control key
+ 28- Keyboard : Press Delete key
+ 29- Keyboard : Press Enter key
+ 30- Keyboard : Press Escape key
+ 31- Keyboard : Press Shift key
+ 32- Keyboard : Press Tab key
+ 33- Listbox : Get all options from *element* in sorted order
+ 34- Listbox : Verify if all options are deselected in *element*
+ 35- Listbox : Verify if option with *index* is deselected in *element*
+ 36- Listbox : Verify if option with *index* is selected in *element*
+ 37- Listbox : Verify if options are sorted in *element*
+ 38- Mouse : Click on current cursor point
+ 39- Mouse : Double click on current cursor point
+ 40- Browser Window : Scroll page vertically until visibility of *element*
+ 41- Images : Verify if *imageFileNameSource* matches *imageFileNameTarget*
+ 42- Enter *input* and press *key* on *element*
+ 43- Execute javascript *script*
+ 44- Execute javascript *script* on *element*
+ 45- Get broken links count
+ 46- Get all broken links
+ 47- Browser window : Add cookie by *name*
+ 48- Browser window : Delete cookie by *name*
+ 49- Browser window : Delete cookie by *cookieObject*
+
+ 50- Browser window : Get height
+ 51- Browser window : Get width
+ 52- Browser window : Get X coordinate
+ 53- Browser window : Set *x* coordinate
+ 54- Browser window : Set *y* coordinate
+ 55- Browser window : Switch to parent window
+ 56- Browser window : Verify if html code contains *code*
+ 57- Browser window : Verify if window's height is *expectedHeight* pixels
+ 58- Browser window : Verify if window's width is *expectedWidth* pixels
+ 59- Browser window : Verify if window's X coordinate is *expectedLocation*
+ 60- Browser window : Verify if window's Y coordinate is *expectedLocation*
+ 61- Wait till title of page is *title*
+ 62- Wait till url of page contains *url*
+ 63- Wait till url of page is *url*
+ 64- Wait till title of page contains *title*
+ 65- Concatenate *string1* with *string2*
+ 66- Generate random number with length *numberOfDigits*
+ 67- Generate random alphabets with length *numberOfAlphabets*
+ 68- DesiredCapability : Set browser version as *browserVersion*
+ 69- DesiredCapability : Set capability *key* and *value*
+ 70- DesiredCapability : Enable JavaScript
+ 71- Click on *element* using submit function
+ 72- Clear text from *element* using shortcut key
+ 73- Clear text from *element* by JavascriptExecutor
+
+ 74- Clear text and enter *input* into *element*
+ 75- Enter *input* into *element* by JavascriptExecutor
+
+ 76- Verify if *actualString* contains *expectedString*
+
+ 77- Verify if *actualString* matches *expectedString*
+
+ 78- Browser window : Verify if title contains *expectedTitle* within specified time
+ 79- Browser window : Verify if all opened windows title is *expectedTitle*
+ 80- Browser window : Verify if window's title matches *expectedTitle* within specified time
+ 81- Browser window : Close all browser windows
+ 82- Browser window : Close browser windows one by one
+
+ 83- Browser window : Delete all cookies
+ 84- Browser window : Enter *url*
+ 85- Browser window : Get all session ids
+ 86- Browser window : Get number of opened Browser windows
+ 87- Browser window : Get session id of current window
+
+ 88- Browser window : Get html code of page
+ 89- Browser window : Get page title
+ 90- Get screenshot of current page
+ 91- Browser window : Get url
+ 92- Browser window : Change browser to full screen mode
+ 93- Browser window : Maximize browser window
+ 94- Browser window : Move to (*x*,*y*- coordinates
+ 95- Browser window : Navigate back to previous page
+
+ 96- Browser window : Navigate forward to next page
+ 97- Navigate to *url*
+ 98- Verify if video of *video player* is playing
+ 99- Browser window : Refresh
+ 100- Browser window : Set size
+ 101- Set *implicitTimeOut*
+ 102- Verify if CSS *attribute* value of *element* is *expectedValue*
+ 103- Listbox : Verify if all options are selected in *element*
+ 104- Listbox : Verify if *expectedOption* is duplicate in *element*
+ 105- Listbox : Verify if option with *value* is deselected in *element*
+ 106- Listbox : Verify if option with value *value* is selected in *element*
+ 107- Enter *input* with randomdata into *element*
+ 108- Browser window : Switch to browser tab if title is *titleOfNewTab*
+ 109- Browser window : Switch to browser window if title is *title*
+ 110- Browser window : Switch to browser window if URL contains *url*
+ 111- Browser window : Switch to browser tab if URL is *url*
+ 112- Browser window : Switch to browser window if URL is *url*
+ 113- Browser window : Switch to browser window if title contains *title*
+ 114- Listbox : Verify if option with text *expectedText* is selected in *element*
+ 115- Listbox : Verify if option with text *string* is deselected in *element*
+ 116- Listbox : Get all options from *element* as text
+
+ 117- Listbox : Get all selected options from *element* as text
+ 118- Listbox : Get size of *element*
+ 119- Listbox : Get first selected option from *element* as text
+ 120- Listbox : Get wrapped option from *element* as text
+ 121- Listbox : Verify if *expectedOption* is present in *element*
+ 122- Get *attribute* value of *element*
+ 123- Get tag name of *element*
+ 124- Get text from list of webelements
+ 125- Verify if *attribute* value of *element* is *expectedValue*
+ 126- Verify if *element* checkbox is selected
+ 127- Verify if *element* is clickable
+ 128- Verify if *element* is disabled
+ 129- Verify if *element* is displayed within specified time
+ 130- Verify if *element* is enabled within specified time
+ 131- Verify if *element* is not displayed
+ 132- Verify if *element* is selected
+ 133- Verify if *attribute* value of *element* contains *expectedValue*
+ 134- Verify if *element* radio button is not selected
+
+ 135- Verify if *element* radio button is selected
+ 136- Verify if text of *element* is *expectedText*
+ 137- Wait till *element* is visible
+ 138- Print Value
+ 139- Start iteration
+ 140- DesiredCapability : Set platform as *operatingSystem*
+ 141- Switch to default window
+ 142- Switch to frame on *element*
+ 143- Switch to frame where id or name *name*
+ 144- Switch to frame where index is *index*
+ 145- Switch to parent frame
+ 146- Excel : Compare cell data of two columns from two workbooks
+ 147- Excel : Compare cell data of two rows from two workbooks
+ 148- Excel : Compare cell data of two sheets from two workbooks
+ 149- Excel : Compare cell data of two sheets from two workbooks from rowIndex of column header
+ 150- Excel : Create new *sheet* in workbook file path *filePath*
+ 151- Excel : Create new *workBookName* with *sheetName* in *folderPath*
+ 152- Excel : Get all column data from *columnHeader*
+
+ 153- Excel : Get all column data from *columnIndex*
+ 154- Excel : Get String cell data from row *rowIndex* and column *columnHeader*
+ 155- Excel : Get cell data from row *rowIndex* column *columnIndex*
+ 156- Excel : Get column count of row *rowIndex*
+ 157- Excel : Get header of column where data is *data*
+
+ 158- Excel : Get complete row data if *data* is found in *columnIndex*
+ 159- Excel : Get complete row data if *data* is found in *columnHeader*
+ 160- Excel : Get complete row data of *rowIndex*
+ 161- Excel : Get index of column where data is *data*
+
+ 162- Excel : Get index of *columnHeader*
+ 163- Excel : Get index of row and column where data is *data*
+ 164- Excel : Get index of row where data is *data*
+ 165- Excel : Get row count from *sheetName*
+ 166- Excel : Verify if given *columnHeader* is duplicate in *sheetName* in workbook file path *filePath*
+ 167- Excel : Verify if given *columnHeader* is present in *sheetName*
+ 168- Excel : Verify if given data *data* is present in workbook file path *filePath*
+ 169- Excel : Write *writeData* in *columnHeader* if *queryData* is present in any row
+ 170- Excel : Write *data* to a cell
+ 171- Browser window : Get Y coordinate
+ 172- Browser window : Open or in headless mode
+ 173- Browser window : Set height
+ 174- Browser window : Set width
+ 175- Alert popup : Click Cancel button
+ 176- Alert popup : Click Ok button
+ 177- Alert popup : Enter *message*
+ 178- Alert popup : Get message
+ 179- Alert popup : Verify if popup is displayed
+ 180- Alert popup : Verify if popup message contains *string*
+ 181- Alert popup : Wait till Alert popup is present
+ 182- Click at (*x*, *y*- coordinates of browser window
+
+ 183- File get the path of last modified file from folderPath *folderPath*
+ 184- Upload file on click of *element*
+ 185- Upload file on click of *element* using AutoIT tool
+ 186- File verify if file *fileName* exists in folder *folderPath*
+ 187- PDF : Compare two files
+ 188- PDF : Get all data
+ 189- PDF : Verify if file contains *data*
+ 190- PDF : Verify if *pdfName* exists in *folderPath*
+
+ 191- Properties : Get all keys
+ 192- Properties : Get all keys in sorted order
+ 193- Properties : Get all values
+ 194- Properties : Get value of key *key*
+ 195- Properties : Verify if *key* is present in *filePath*
+ 196- Mouse : Move by (*x*, *y*- coordinates in *element*
+ 197- Mouse : Move by (*x*, *y*- coordinates in browser window
+ 198- Browser window : Scroll page from current position to (*x*,*y*- coordinates
+ 199- Click on *element* using javascript executor
+ 200- Mouse : Double click on *element*
+ 201- Double click at *xCoordinate* and *yCoordinate* of *element*
+ 202- Mouse : Drag and drop *element* to *toElement*
+ 203- Mouse : Drag and drop *element* to (*x*, *y*- coordinates
+ 204- Mouse : Move on *element*
+ 205- Mouse : Click and hold on *element*
+ 206- Mouse : Release left button on *element*
+ 207- Mouse : Right click on *element*
+ 208- Browser window : Scroll page horizontally and vertically until visibility of *element*
+ 209- Listbox : Deselect all options from *element*
+ 210- Listbox : Deselect option from *element* whose index is *index*
+ 211- Listbox : Deselect option from *element* whose value is *value*
+ 212- Listbox : Deselect option from *element* whose text is *text*
+ 213- Listbox : Get all selected options from *element* as List of Elements
+ 214- Listbox : Get first selected option from *element* as Element
+ 215- Listbox : Get all options from *element* as List of Elements
+ 216- Listbox : Get wrapped option from *element* as Element
+ 217- Listbox : Verify if *element* is multi select
+ 218- Listbox : Select option from *element* whose index is *index*
+ 219- Listbox : Select option from *element* whose value is *value*
+ 220- Listbox : Select option from *element* whose text is *text*
+ 221- Clear text from *element*
+ 222- Click on *element*
+ 223- Find child element of *element*
+ 224- Find all child elements of *element* and return List Collection
+ 225- Get CSS *attribute* value of *element*
+ 226- Get location of *element*
+ 227- Get rectangle of *element*
+ 228- Get screenshot of *element*
+ 229- Get size of *element*
+ 230- Get text from *element*
+ 231- Verify if *element* is displayed
+ 232- Verify if *element* is enabled
+ 233- Enter *input* into *element*
+ 234- Excel : Compare cell data of two cells from two workbooks
+ 235- Browser window : Verify if window's title contains *expectedTitle*
+ 236- Browser window : Verify if window's title matches *expectedTitle*
+ 237- Browser window : Verify if url contains *string*
+
+ 238- Browser window : Verify if url is *string*
+ 239- Browser window : Verify if window is closed
+ 240- Build Jenkins Job
+ 241- Convert hours to milliseconds
+ 242- Convert hours to minutes
+ 243- Convert hours to seconds
+ 244- Convert milliseconds to minutes
+ 245- Convert milliseconds to seconds
+ 246- Convert milliseconds to hours
+ 247- Convert minutes to milliseconds
+ 248- Convert minutes to seconds
+ 249- Convert minutes to hours
+ 250- Convert seconds to milliseconds
+ 251- Convert seconds to minutes
+ 252- Convert seconds to hours
+ 253- Get current day of the week
+ 254- Get current seconds from current system time
+ 255- Get current system date
+ 256- Get current system time
+ 257- Get current system year
+ 258- Get hour from current system time
+ 259- Verify if X and Y coordinate of *element*
+ 260- Get number of links present in current page
+ 261- Get X coordinate of *element*
+ 262- Get Y coordinate of *element*
+ 263- Browser window : Scroll up from current position
+
+ 264- Browser window : Scroll down from current position
+
+ 265- Sort list of string in ascending order
+ 266- Sort list of string in descending order
+ 267- Verify if *list1* is equal to *list2*
+ 268- Get list of elements from *locatorType* *locatorValue*
+ 269- Get minute from current system time
+ 270- Browser window : Open browser by enabling camera
+ 271- Browser window : Open browser by enabling microphone
+ 272- Browser window : Open browser by disabling camera
+ 273- Browser window : Open browser by disabling microphone
+ 274- Browser window : Open browser by enabling all notifications
+ 275- Browser window : Open browser by disabling all notifications
+ 276- Wait till *element* is clickable
+ 277- Wait till *element* is invisible
+ 278- Start If Condition
+ 279- Bot response with dynamic input
+ 280- Bot response with static input
+ 281- Kafka Consumer
+ 282- Kafka Producer
+ 283- Browser window : Verify if all cookies are deleted
+
+ 284- Browser window : Open *browserName* using grid
+ 285- Checkbox : Deselect *element*
+ 286- Checkbox : Select *element*
+ 287- Verify if *element* checkbox is not selected
+ 288- Verify if *element* is listbox
+ 289- Verify if text of *element* contains *expectedText*
+ 290- Browser window : Scroll page horizontally until visibility of *element*
+ 291- Alert popup : Verify if popup message is *string*
+ 292- Get audio decoded bites from *audio player*
+ 293- Seek *audio player* forward for *seconds* seconds
+
+ 294- Seek *audio player* backward for *seconds* seconds
+
+ 295- Verify if specific image is broken in current page
+
+ 296- Verify if *links* are broken
+ 297- Unmute *video player*
+ 298- Play video of *video player*
+ 299- Pause video of *video player*
+ 300- Verify if video of *video player* is paused
+ 301- Get current seek time from *element*
+ 302- Verify if video of *video player* has ended
+ 303- Get media length from *element*
+ 304- Seek *video player* forward for *seconds* seconds
+
+ 305- Seek *video player* backward for *seconds* seconds
+
+ 306- Get default playback rate of *video player*
+ 307- Get current playback rate of *video player*
+ 308- Set *video player* playback rate to *playbackRate*
+
+ 309- Verify if *video player* is muted
+ 310- Get current volume from *video player*
+ 311- Set volume *volume* for *video player*
+ 312- Get width of video from *video player*
+ 313- Get height of video from *video player*
+ 314- Get dimension of video from *video player*
+ 315- Get media source of *video player*
+ 316- Get video decoded bites from *element*
+ 317- Play audio of *audio player*
+ 318- Pause audio *audio player*
+ 319- Verify if audio of *audio player* is playing
+ 320- Verify if audio *audio player* is paused
+ 321- Get default playback rate of *audio player*
+ 322- Get current playback rate of *audio player*
+ 323- Set *audio player* playback rate to *playbackRate*
+
+ 324- Verify if *audio player* is muted
+ 325- Mute *audio player*
+ 326- Unmute *audio player*
+ 327- Get current volume from *audio player*
+ 328- Set volume *volume* for *audio player*
+ 329- Mute *video player*
+ 330- Verify if audio *audio player* is ended
+ 331- Wait till *element* is selected
+ 332- Get all console error logs from current page
+ 333- Get response time of all APIs from current page
+
+ 334- Get status code of all APIs from current page
+ 335- Get status code of an API *requestUrl*
+ 336- Get response time of API *requestUrl*
+ 337- Get all console warning logs from current page
+ 338- Get all console information logs from current page
+
+ 339- Get data for specified *jsonPath* from response of *requestUrl*
+ 340- Get complete response from an *requestUrl*
+ 341- Filter API calls based on search key *searchKey*
+
+ 342- Get media source from *audio player*
+ 343- Verify if status code of a *link* is *status code*
+
+ 344- Wait for *element* until *attribute* contains *string*
+ 345- Wait for *element* until *attribute* is *string*
+
+ 346- PDF : Extract data from section of PDF
+ 347- Browser window : Scroll up browser window from current position by *pixelValue* pixels
+ 348- Keyboard : Press two keys simultaneously
+ 349- Browser window : Scroll down browser window from current position by *pixelValue* pixels for *numberOfTimes*
+ 350- Keyboard : Press two keys simultaneously for *numberOfTimes*
+ 351- Browser window : Scroll up browser window from current position by *pixelValue* pixels for *numberOfTimes*
+ 352- Browser window : Verify if all the browser windows are closed
+ 353- Verify if option *visibleText* is deselected
+ 354- Browser window : Add cookie by *cookieObject*
+ 355- JSON : Convert json string to json object
+ 356- Browser window : Scroll down browser window by pixels *pixelValue* pixels
+ 357- JSON : Fetch value from JSON object
+ 358- Verify if option *visibleText* is selected
+ 359- Browser window : Verify if *cookieObject* is present
+ 360- Press *key* for *numberOfTimes*
+ 361- Mouse : Click on current cursor position for *numberOfTimes*
+ 362- Click on *element* for *numberOfTimes* times
+ 363- Click on *element* for *numberOfTimes* using javascript
+ 364- Browser window : Create instance of Cookie
+ 365- Saucelab : Get tunnel identifier for *tunnelId*
+
+ 366- Images : Take screenshot and compare section of screenshot with *imagePath*
+ 367- Image : Take screenshot and compare with *Image Path*
+ 368- Image : Take screenshot and compare with image ignoring specifed section of width *Ignorable Section Width* and height *Ignorable Section Height*
+
+ 369- Get current system month
+ 370- Get current system day
+ 371- Wait till all *elements* is invisible
+ 372- Verify if *links* are working
+ 373- Verify if *link* is working
+ 374- Get number of working links from currrent page
+ 375- Get status code of a *link*
+ 376- Get all console logs from current page
+ 377- Get number of broken images from current page
+ 378- Get all broken images from current page
+ 379- Verify if all images are broken in current page
+
+ 380- Get value from local storage for key
+ 381- Browser window : Open browser by disabling location
+ 382- Browser window : Open browser by enabling location
+
+ 383- JDBC : Get values for a record from the database *tableName* table based on a condition
+ 384- JDBC : Insert values *insertValues* to specified table *tableName* into the database
+ 385- JDBC : Update value *setValues* into *tableName* table
+ 386- JDBC : Delete a record from *tableName* table from the database
+ 387- PostgreSQL : Insert values *insertValues* to specified table *tableName* into the database
+ 388- PostgreSQL : Get values for a record from the databases tableName table based on a condition.
+ 389- PostgreSQL : Update value *setValues* into *tableName* table
+ 390- PostgreSQL : Delete a record from *tableName* table from the database
+ 391- Enter *input* into *element* using inner html
+ 392- Get width of *element*
+ 393- Get height of *element*
+ 394- Wait till presence of element with *locatorType* *locatorValue*
+ 395- Wait till presence of allElements with *locatorType* *locatorValue*
+ 396- Wait for *element* until text contains *text*
+ 397- Wait for *element* until text matches *text*
+ 398- Wait until text of value attribute *value* is present within *element*
+ 399- Wait for *element* until *attribute* is not empty
+
+ 400- Extract substring from *string* starting from *startIndex* till *endIndex*
+ 401- Image : Compare inversion of *Original Image* with *Inverted Image*
+ 402- Properties : Verify if *value* is present in *filePath*
+ 403- Browser window : Get all cookie names
+ 404- Browser window : Get all cookie values
+ 405- Browser window : Get the value of *cookieName*
+ 406- Browser window : Get total number of cookies
+ 407- UI Performance : Verify confidence score of selected categories with the expected score
+ 408- CSV : Get cell *data*
+ 409- CSV : Write *data* to a cell
+ 410- CSV : Get complete row data for given row index
+
+ 411- CSV : Get complete column data for given *columnIndex*
+ 412- Verify if *list* is in ascending order
+ 413- Verify if *list* is in descending order
+ 414- Verify if string *string1* is not equal to string *string2*
+ 415- Verify if string *string1* is equal to string *string2*
+ 416- Browser window : Get size
+ 417- Get hexcode for *xCoordinate* and *yCoordinate*
+ 418- Wait for page to load for maximum time limit of *time* seconds
+ 419- Convert input *data* to *resultDataType*
+ 420- Get working links from current page
+ 421- Verify if *status codes* of *links*
+ 422- Browser window : Get position
+ 423- Browser window : Set position
+ 424- Get audio length from *audio player*
+ 425- Get current audio seek time from *audio player*
+ 426- Get dimension of audio from *audio player*
+ 427- Get height of audio from *audio player*
+ 428- Get width of audio from *audio player*
+ 429- Keyboard : Press three keys simultaneously
+ 430- Browser window : Scroll page to (*x*,*y*- coordinates in browser window
+ 431- String : Fetch only numbers from *string*
+ 432- String : Fetch only alphabets from *string*
+ 433- String : Convert all the alphabets in *string* to upper case
+ 434- String : Convert all the alphabets in *string* to lower case
+ 435- Generate random date between *beginningDate* and *endingDate* in the given *format*
+ 436- List : Add the *value* to the *list*
+ 437- List : Add the *value* to the *list* at the *index*
+ 438- List : Verify if *value* is present in *list*
+ 439- List : Check if all values of *list1* is present in *list2*
+ 440- List : Clear all values from the *list*
+ 441- List : Create instance of list
+ 442- List : Create instance of list with values
+ 443- List : Get size of the *list*
+ 444- List : Get the index of the first occurrence of the given *value* from the *list*
+ 445- List : Get the index of the last occurrence of the given *value* from the *list*
+ 446- List : Get the value at the *index* in the *list*
+ 447- List : Remove all the values of *list1* from *list2*
+ 448- List : Remove the *value* from the *list*
+ 449- List : Verify if list is empty
+ 450- String : Get the length of the *string*
+ 451- String : Verify if *string* Ends with *suffix*
+ 452- String : Verify if *string* is empty
+ 453- Get text from clipboard
+ 454- Set text into clipboard
+ 455- Browser window : Open standalone *browserName*
+ 456- Get current driver instance
+ 457- Images : Get text from image
+ 458- Set input driver instance
+ 459- Get current system date in the *format*
+ 460- UI Performance : Verify if Accessibility Score is greater than or equal to *expectedScore*
+ 461- UI Performance : Verify if Best Practices Score is greater than or equal to *expectedScore*
+ 462- UI Performance : Verify if Performance Score is greater than or equal to *expectedScore*
+ 463- UI Performance : Verify if PWA Score is greater than or equal to *expectedScore*
+ 464- UI Performance : Verify if SEO Score is greater than or equal to *expectedScore*
+ 465- Get data for specified *jsonPath* from request header of *requestUrl*
+ 466- Browser window : Open new tab
+ 467- Browser window : Open new window
+ 468- Operators : Perform arithmetic operation on *operand1* and *operand2*
+ 469- UI Performance : Get Accessibility Score for URL
+
+ 470- UI Performance : Get Best Practices Score for URL
+
+ 471- UI Performance : Get Performance Score for URL
+ 472- UI Performance : Get PWA Score for URL
+ 473- UI Performance : Get SEO Score for URL
+ 474- Verify if video of *video player* is playing in mute
+ 475- Verify if video of *video player* is playing in unmute
+ 476- String : Get the character from *string* at the *index*
+ 477- String : Get the index of occurrence of *queryString* in the *string*
+ 478- String : Verify if *string* matches given *regex*
+
+ 479- String : Replace all occurrences of string matching *regex* with *newSubString*
+ 480- String : Get the index of occurrence of *queryString* in the *string* from *fromIndex*
+ 481- String : Get the last index of the *subString* in *string*
+ 482- Image : Compare two images
+ 483- String : Replace all occurrences of *oldSubString* with *newSubString*
+ 484- String : Verify if *string* starts with *suffix*
+
+ 485- String : Convert *string* into character array
+ 486- String : Trim spaces from start and end of the *string*
+ 487- String : Fetch only special characters from *string*
+ 488- String : Replace first occurrence of *oldSubString* with *newSubString*
+ 489- String : Get the last index of the *subString* in *string* within *withinIndex*
+ 490- Verify if hexcode for *xCoordinate* and *yCoordinate* is *expectedHexCode*
+ 491- Click on *element* with custom wait
+ 492- Enter *input* into *element* with custom wait
+ 493- Wait till the *element* becomes stale
+ 494- Verify if *element* is selected within specified time
+ 495- Operators : Decrement *initialValue* value by *decrementBy*
+ 496- Operators : Increment *initialValue* value by *incrementBy*
+ 497- Click on list of elements located by *locatorType* *locatorValue*
+ 498- Operators : Perform addition operation on the numbers of the *operands*
+ 499- Operators : Perform bitwise operation on *operand1* and *operand2*
+ 500- Operators : Perform logical not operation on *operand*
+ 501- Operators : Perform logical operation on *operand1* and *operand2*
+ 502- Operators : Perform multiplication operation on the numbers of the *operands*
+ 503- Operators : Perform relational operation on *operand1* and *operand2*
+ 504- Test Data : Get file input stream object
+ 505- Write data into local text file *textFilePath*
+ 506- Excel : Write data into cell for given *uniqueData* and *header* for single row table
+ 507- Excel : Get data from a single row table as a map for given *uniqueData*
+ 508- Excel : Get string cell data for given *uniqueData* and *header* for single row table
+ 509- Map : Add *key* and *value* to the *map*
+ 510- Map : Create instance of map
+ 511- Map : Get the value for *key* in the *map*
+ 512- Start for loop
+ 513- Continue
+ 514- Break
+ 515- String : Verify if *string1* is equal to *string2* ignoring case
+ 516- Create a file *fileNameWithExtension* in local machine
+ 517- Generate random email
+ 518- Generate random email with specified domain
+ 519- Excel : Get data from multi row table as a map for given *uniqueData*
+ 520- Excel : Get string cell data for given *uniqueData* and *header* for multi row table
+ 521- Excel : Write data into cell for given *uniqueData* and *header* for multi row table
+ 522- String : Split *string* into list of string for given *regex*
+ 523- Browser window : Minimize browser window
+ 524- Radio : Select *element*
+ 525- UI Performance : Get network route time of current page
+ 526- UI Performance : Get full paint time of current page of current page
+ 527- UI Performance : Get first contentful paint time of current page
+ 528- UI Performance : Get largest contentful paint time of current page
+ 529- UI Performance : Get performance metrics of current page
+ 530- List : Convert array to list
+ 531- Get value of the *systemVariable*
+ 532- T-SQL : Insert values *insertValues* to specified table *tableName* into the database
+ 533- T-SQL : Get values for a record from the databases tableName table based on *condition*
+ 534- T-SQL : Update value *setValues* into *tableName* table
+ 535- T-SQL : Delete a record from *tableName* table from the database
+ 536- Test Data : Update given string data to given *filePath*
+ 537- Test Data : Get string data from given *filePath*
+ 538- Get string data from local *filePath*
+ 539- JSON : Get value from json file for given *jsonPath*
+ 540- JSON : Update *value* for given *jsonPath* into json file
+ 541- Generate random string with length *numberOfCharacters*
+ 542- List : Verify if *value* is not present in *list*
+ 543- Excel : Set background *color* into cell for given *uniqueData* and *header* for single row or multi row table
+ 544- Reinitialize given *value* to specified variable
+ 545- Verify if *actualString* does not contain *expectedString*
+ 546- Verify if *actualString* does not match *expectedString*
+ 547- OpenBrowser
+ 548- CloseBrowser
+ 549- Launch to login
+ 550- Launch to Home
+ 551- Lauch to Home Page with Return type without Parameter
